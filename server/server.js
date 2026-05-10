@@ -21,7 +21,7 @@ const app = express()
 app.use(cors({
   origin: [
     'http://localhost:5173',
-    process.env.FRONTEND_URL,
+    'https://local-services-3419.vercel.app',
   ],
   credentials: true,
 }))
