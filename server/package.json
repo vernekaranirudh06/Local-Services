@@ -6,6 +6,9 @@
     "dev": "node --watch server.js",
     "start": "node server.js"
   },
+  "engines": {
+    "node": "22.x"
+  },
   "dependencies": {
     "bcryptjs": "^3.0.3",
     "cloudinary": "^1.41.0",
